@@ -1,0 +1,158 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled3.ipynb",
+      "private_outputs": true,
+      "provenance": [],
+      "collapsed_sections": [],
+      "authorship_tag": "ABX9TyNvA5ehBQUE57oo4aZI/VxJ",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/MariagabrielleMelo070718/Clean-the-world--C-digos/blob/main/Clean%20the%20world-%20C%C3%B3digos\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "yd3sl-5BLMX4"
+      },
+      "source": [
+        "#codigo de acelerar\n",
+        "Nome = str (input('Boa noite,tudo bem? senhor pode falar seu nome')) \n",
+        "#print(\"ligando o avião\")\n",
+        "avião = int (input('''selecione a primeira função da seu avião\n",
+        "[1] - acelerar \n",
+        "[2] - Decolar\n",
+        "[3] - Planar \n",
+        "[4] - Piloto Automatico\n",
+        "[5] - Pousar \n",
+        "Resposta:'''))\n",
+        "if avião == 1:\n",
+        "  print('Seu avião esta acelerando')\n",
+        "  while avião == 1:\n",
+        "      for avião in range(0,1):\n",
+        "       print ('o avião está pra acelerar')"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "uiosxzB4LNuV"
+      },
+      "source": [
+        "#codigo de decolar \n",
+        "Nome = str (input('Boa noite,tudo bem? senhor pode falar seu nome')) \n",
+        "#print(\"ligando o avião\")\n",
+        "avião = int (input('''selecione a primeira função da seu avião\n",
+        "[1] - acelerar \n",
+        "[2] - Decolar\n",
+        "[3] - Planar \n",
+        "[4] - Piloto Automatico\n",
+        "[5] - Pousar \n",
+        "Resposta:'''))\n",
+        "if avião == 2:\n",
+        "  print('Seu avião esta decolando')\n",
+        "  while avião == 2:\n",
+        "      for avião in range(0,1):\n",
+        "       print ('o avião está pra decolar')"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "7NZFAfTcLR4G"
+      },
+      "source": [
+        "#codigo de Planar \n",
+        "Nome = str (input('Boa noite,tudo bem? senhor pode falar seu nome')) \n",
+        "#print(\"ligando o avião\")\n",
+        "avião = int (input('''selecione a primeira função da seu avião\n",
+        "[1] - acelerar \n",
+        "[2] - Decolar\n",
+        "[3] - Planar \n",
+        "[4] - Piloto Automatico\n",
+        "[5] - Pousar \n",
+        "Resposta:'''))\n",
+        "if avião == 3:\n",
+        "  print('Seu avião vai planar')\n",
+        "  while avião == 3:\n",
+        "      for avião in range(0,1):\n",
+        "                print ('o avião está planando')"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "EGiWo-EBLVLv"
+      },
+      "source": [
+        "#codigo do Piloto Automático\n",
+        "Nome = str (input('Boa noite,tudo bem? senhor pode falar seu nome')) \n",
+        "#print(\"ligando o avião\")\n",
+        "avião = int (input('''selecione a primeira função da seu avião\n",
+        "[1] - acelerar \n",
+        "[2] - Decolar\n",
+        "[3] - Planar \n",
+        "[4] - Piloto Automatico\n",
+        "[5] - Pousar \n",
+        "Resposta:'''))\n",
+        "if avião == 4:\n",
+        "  print('o piloto altomatico vai ativar')\n",
+        "  while avião == 4:\n",
+        "      for avião in range(0,1):\n",
+        "       print ('o piloto altomatico esta ativo')"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "v6uLcaigLYtD"
+      },
+      "source": [
+        "#codigo de Pousar \n",
+        "Nome = str (input('Boa noite,tudo bem? senhor pode falar seu nome')) \n",
+        "#print(\"ligando o avião\")\n",
+        "avião = int (input('''selecione a primeira função da seu avião\n",
+        "[1] - acelerar \n",
+        "[2] - Decolar\n",
+        "[3] - Planar \n",
+        "[4] - Piloto Automatico\n",
+        "[5] - Pousar \n",
+        "Resposta:'''))\n",
+        "if avião == 5:\n",
+        "  print('Seu avião esta pousando')\n",
+        "  while avião == 5:\n",
+        "      for avião in range(0,1):\n",
+        "       print ('o avião está pra pousar')"
+      ],
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
