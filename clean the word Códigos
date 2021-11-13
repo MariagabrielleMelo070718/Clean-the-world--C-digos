@@ -1,0 +1,345 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Cópia de Olá, este é o Colaboratory",
+      "provenance": [],
+      "collapsed_sections": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/MariagabrielleMelo070718/Clean-the-world--C-digos/blob/main/clean%20the%20word%20C%C3%B3digos\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "q9Nl_Xh-GFpM"
+      },
+      "source": [
+        "#ETE PORTO DIGITAL\n",
+        "#PROFESSOR:CLOVES ROCHA\n",
+        "#DISCIPLINA:LPC\n",
+        "\n",
+        "#[AP1] ATIVIDADE-IV UNIDADE"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "hQiwOtgDcs1E",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "bf0a7ef9-84f5-4a76-94fe-b51d04f71c4d"
+      },
+      "source": [
+        "#MENU\n",
+        "print(\"MENU\")\n",
+        "print(\"tela inicial\")\n",
+        "print(\"selecione uma opção\")\n",
+        "jogo = int (input('''aperte um botão\n",
+        "[1] - Jogar\n",
+        "[2] - sua conta\n",
+        "[3] - configurações\n",
+        "[4] - Sair do jogo\n",
+        "resposta:'''))\n",
+        "if jogo == 1:\n",
+        "  print('Você está entrando no jogo')\n",
+        "  while jogo == 1:\n",
+        "      for jogo in range (0,1):\n",
+        "       print ('Você entrou no jogo')"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "MENU\n",
+            "tela inicial\n",
+            "selecione uma opção\n",
+            "aperte um botão\n",
+            "[1] - Jogar\n",
+            "[2] - sua conta\n",
+            "[3] - configurações\n",
+            "[4] - Sair do jogo\n",
+            "resposta:1\n",
+            "Você está entrando no jogo\n",
+            "Você entrou no jogo\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "DUdgVPl5cxBG"
+      },
+      "source": [
+        "print(\"MENU\")\n",
+        "print(\"tela inicial\")\n",
+        "print(\"selecione uma opção\")\n",
+        "jogo = int (input('''aperte um botão\n",
+        "[1] - Jogar\n",
+        "[2] - sua conta\n",
+        "[3] - configurações\n",
+        "[4] - Sair do jogo\n",
+        "resposta:'''))\n",
+        "if jogo == 2:\n",
+        "  print('Entrando da sua conta')\n",
+        "  while jogo == 2:\n",
+        "      for jogo in range (0,1):\n",
+        "       print ('Sua conta')"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "2XsJYrQofS8T"
+      },
+      "source": [
+        "print(\"MENU\")\n",
+        "print(\"tela inicial\")\n",
+        "print(\"selecione uma opção\")\n",
+        "jogo = int (input('''aperte um botão\n",
+        "[1] - Jogar\n",
+        "[2] - sua conta\n",
+        "[3] - configurações\n",
+        "[4] - Sair do jogo\n",
+        "resposta:'''))\n",
+        "if jogo == 3:\n",
+        "  print('Você esta entrando nas configurações do jogo')\n",
+        "  while jogo == 3:\n",
+        "      for jogo in range (0,1):\n",
+        "       print ('Entrou nas configurações')"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "QlE97fX9Qutg"
+      },
+      "source": [
+        "print(\"MENU\")\n",
+        "print(\"tela inicial\")\n",
+        "print(\"selecione uma opção\")\n",
+        "jogo = int (input('''aperte um botão\n",
+        "[1] - Jogar\n",
+        "[2] - sua conta\n",
+        "[3] - configurações\n",
+        "[4] - Sair do jogo\n",
+        "resposta:'''))\n",
+        "if jogo == 4:\n",
+        "  print('sair do jogo')\n",
+        "  selecione = input('sim ou não')\n",
+        "  if selecione == \n",
+        "  while jogo == 4:\n",
+        "      for jogo in range (0,1):\n",
+        "       print ('saindo do jogo')"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "EhLJf81s2GFR"
+      },
+      "source": [
+        "#Configuração \n",
+        "print(\"Configurações\")\n",
+        "print(\"tela de configurações\")\n",
+        "print(\"selecione uma opção\")\n",
+        "jogo = int (input('''aperte um botão\n",
+        "[1] - Som\n",
+        "[2] - Musica\n",
+        "[3] - voltar \n",
+        "resposta:'''))\n",
+        "if jogo == 1:\n",
+        "  print('Ajuste o Som do jogo')\n",
+        "  while jogo == 1:\n",
+        "      for jogo in range (0,1):\n",
+        "       print ('Som do jogo ajustado')"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "Btk0D-2b8zHC"
+      },
+      "source": [
+        "print(\"Configurações\")\n",
+        "print(\"tela de configurações\")\n",
+        "print(\"selecione uma opção\")\n",
+        "jogo = int (input('''aperte um botão\n",
+        "[1] - Som\n",
+        "[2] - Musica\n",
+        "[3] - voltar \n",
+        "resposta:'''))\n",
+        "if jogo == 2:\n",
+        "  print('Ajuste a musica')\n",
+        "  while jogo == 2:\n",
+        "      for jogo in range (0,1):\n",
+        "       print ('Musica ajustada')"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "S_kfpSHS9GQq"
+      },
+      "source": [
+        "print(\"Configurações\")\n",
+        "print(\"tela de configurações\")\n",
+        "print(\"selecione uma opção\")\n",
+        "jogo = int (input('''aperte um botão\n",
+        "[1] - Som\n",
+        "[2] - Musica\n",
+        "[3] - voltar \n",
+        "resposta:'''))\n",
+        "if jogo == 3:\n",
+        "  print('Voltando para o inicio')\n",
+        "  while jogo == 3:\n",
+        "      for jogo in range (0,1):\n",
+        "       print ('início')"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "5GtSbZVZ_3QC"
+      },
+      "source": [
+        "#Movimentação \n",
+        "print(\"MOVIMENTAÇÃO\")\n",
+        "PUlE = int (input('''APERTE UM BOTÃO:\n",
+        "[1] - PULE\n",
+        "[2] - ESQUERDA\n",
+        "[3] - DIREITA\n",
+        "[4] - NORTE\n",
+        "[5] - SUL\n",
+        "resposta:'''))\n",
+        "selecione = input('selecione a quantidade:')\n",
+        "print(\"quantidade:\")\n",
+        "for pule in range (0,3):\n",
+        "      print('pule')"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "GA4nxT9eAWxJ"
+      },
+      "source": [
+        "print(\"MOVIMENTAÇÃO\")\n",
+        "PUlE = int (input('''APERTE UM BOTÃO:\n",
+        "[1] - PULE\n",
+        "[2] - ESQUERDA\n",
+        "[3] - DIREITA\n",
+        "[4] - NORTE\n",
+        "[5] - SUL\n",
+        "resposta:'''))\n",
+        "selecione = input('selecione a quantidade:')\n",
+        "print(\"quantidade:\")\n",
+        "for esquerda in range (0,2):\n",
+        "      print('esquerda')"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "1AvZY0YeAhu-"
+      },
+      "source": [
+        "print(\"MOVIMENTAÇÃO\")\n",
+        "PUlE = int (input('''APERTE UM BOTÃO:\n",
+        "[1] - PULE\n",
+        "[2] - ESQUERDA\n",
+        "[3] - DIREITA\n",
+        "[4] - NORTE \n",
+        "[5] - SUL\n",
+        "resposta:'''))\n",
+        "selecione = input('selecione a quantidade:')\n",
+        "print(\"quantidade:\")\n",
+        "for direita in range (0,2):\n",
+        "      print('direita')"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "E9hwAiM6AlVW"
+      },
+      "source": [
+        "print(\"MOVIMENTAÇÃO\")\n",
+        "PUlE = int (input('''APERTE UM BOTÃO:\n",
+        "[1] - PULE\n",
+        "[2] - ESQUERDA\n",
+        "[3] - DIREITA\n",
+        "[4] - NORTE\n",
+        "[5] - SUL\n",
+        "resposta:'''))\n",
+        "selecione = input('selecione a quantidade:')\n",
+        "print(\"quantidade:\")\n",
+        "for norte in range (0,3):\n",
+        "      print('norte')"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "MuQTdn9sAv2H"
+      },
+      "source": [
+        "print(\"MOVIMENTAÇÃO\")\n",
+        "PUlE = int (input('''APERTE UM BOTÃO:\n",
+        "[1] - PULE\n",
+        "[2] - ESQUERDA\n",
+        "[3] - DIREITA\n",
+        "[4] - NORTE\n",
+        "[5] - SUL\n",
+        "resposta:'''))\n",
+        "selecione = input('selecione a quantidade:')\n",
+        "print(\"quantidade:\")\n",
+        "for sul in range (0,3):\n",
+        "      print('sul')"
+      ],
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
