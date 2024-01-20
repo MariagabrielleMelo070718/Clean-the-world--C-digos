@@ -1,0 +1,287 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "private_outputs": true,
+      "provenance": [],
+      "cell_execution_strategy": "setup",
+      "mount_file_id": "1tNjIXoID1hdLusFl5K7HFbw0XNp8s5rP",
+      "authorship_tag": "ABX9TyNOOaXeY1QEx6+Iq6d7+aWc",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/MariagabrielleMelo070718/Clean-the-world--C-digos/blob/main/atividade_curso_logica%20_de_programa%C3%A7%C3%A3o\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "EIFtXyjUDGM7"
+      },
+      "outputs": [],
+      "source": [
+        "#09 Slide\n",
+        "salario_minimo = float(input('Digite o valor do salário mínimo R$'))\n",
+        "qtd_kw = float(input('informe o consumo em kw'))\n",
+        "valor_kw = salario_minimo / 1000\n",
+        "conta = qtd_kw * valor_kw\n",
+        "conta_com_desconto = conta * 0.85\n",
+        "print('Valor do KW R$',round(valor_kw,2))\n",
+        "print('Valor do conta R$',format(conta,'.2f'))\n",
+        "print('Valor da conta com 15% de desconto',round(conta_com_desconto,2))\n",
+        "\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#10 Slide\n",
+        "valor_hora = float(input('Digite o valor da hora da banda R$'))\n",
+        "duração = float(input('Informe a duração do show em em horas'))\n",
+        "distancia = int(input('Informe a distancia a ser percorrida em KM:'))\n",
+        "valor_deslocamento = distancia * 50\n",
+        "valor_show = valor_hora * duração + valor_deslocamento\n",
+        "frete = valor_deslocamento * 0.35\n",
+        "print('O valor do show R$',round(valor_show,2))\n",
+        "print('O valor do frete R$',round(frete,2))\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "zP-EgkKusgaW"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#10 da ficha\n",
+        "\n",
+        "custo = float(input('Informe o custo de fábrica R$'))\n",
+        "valor_imposto = custo * 0.45\n",
+        "valor_distribuidor = (custo + valor_imposto) * 0.28\n",
+        "venda = custo + valor_imposto + valor_distribuidor\n",
+        "print('O preço de venda R$',round(venda,2))\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "k5-ohmAB3vaA"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#9 da ficha\n",
+        "anos = int(input('Informe a quantidade de anos:'))\n",
+        "meses = int(input('Informe a quantidade de messes:'))\n",
+        "dias = int(input('Informe a quantidade de dias:'))\n",
+        "qtd_dias = anos * 12 * 30 + meses * 30 + dias\n",
+        "print('Quantidade de dias vividos =',qtd_dias)"
+      ],
+      "metadata": {
+        "id": "r8uHQ5AL-DTs"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#8 da ficha\n",
+        "nome = input('Informe o nome do vendedor' )\n",
+        "fixo = float (input('Informe seu salário fixo R$'))\n",
+        "vendas = float(input('Informe o total de vendas R$'))\n",
+        "comissao = vendas * .15\n",
+        "salario_final = fixo + comissao\n"
+      ],
+      "metadata": {
+        "id": "apJSXQHx_0QP"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#7 da ficha\n",
+        "custo = float (input('Informe o preço de custo R$'))\n",
+        "aumento = int (input('Informe o percentual de aumento:'))\n",
+        "valor_final = custo * (100 + aumento) / 100\n",
+        "print('Valor de venda R$'= str)\n"
+      ],
+      "metadata": {
+        "id": "FfF5zXhyB9e8"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#6 da ficha\n",
+        "venda = float(input('Informe o valor da compra: '))\n",
+        "parcela = venda  / 5\n",
+        "print(' O valor da parcela R$',parcela)"
+      ],
+      "metadata": {
+        "id": "MG5UtfvaEGlH"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#5 da ficha\n",
+        "\n",
+        "deposito = float(input('Informe o valor depositado R$'))\n",
+        "rendimento = deposito * 0.000\n",
+        "saldo = deposito + rendimento\n",
+        "print('O saldo R$',saldo)"
+      ],
+      "metadata": {
+        "id": "kkZJ-k5YFLgo"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#4 da ficha\n",
+        "\n",
+        "cotacao = float(input('Informe a cotação do momento: '))\n",
+        "dolar = float(input('Informe a quantidade de dolares: '))\n",
+        "print('Valor em real R$',dolar * cotacao)"
+      ],
+      "metadata": {
+        "id": "CP-y2VRJHW0i"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#3 da ficha\n",
+        "c = float(input('Informe a temperatura em graus C:'))\n",
+        "f = (9*c +160) / 5\n",
+        "print('Tempestade em F:',f)"
+      ],
+      "metadata": {
+        "id": "dM4ca1pzJnc2"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#11 DO slide 2  if/se\n",
+        "\n",
+        "idade = int(input('Informe a sua idade:'))\n",
+        "genero = input('Informe o gênero:')\n",
+        "salario = float(input('Informe o seu salário:'))\n",
+        "if idade > 30:\n",
+        "  if genero == 'M':\n",
+        "    if salario <= 300:\n",
+        "      salario = salario * 1.3\n",
+        "  else:\n",
+        "     salario = salario * 1.5\n",
+        "else:\n",
+        "  if idade < 30:\n",
+        "     if genero == 'M':\n",
+        "       salario = salario * 1.2\n",
+        "  else:\n",
+        "        salario = salario *1.4\n",
+        "print('salario')\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "v63brd5kipsY"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#12 SLIDE 2 if/se\n",
+        "peso = float(input('Informe o peso:'))\n",
+        "if peso <= 50:\n",
+        "  print('Peso OK')\n",
+        "else:\n",
+        "  excedente = peso - 50\n",
+        "  multa = excedente * 4\n",
+        "  print ('Peso excedente:', excedente, 'Multa R$'+str(format(multa,'.2f')))\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "58HxUgViydit"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#13 SLIDE 2 IF/SE\n"
+      ],
+      "metadata": {
+        "id": "qF-tE58J5NAU"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#14 slide 2\n",
+        "rh = float(input('Renda do homem R$:'))\n",
+        "rm = float(input('Renda da Mulher R$:'))\n",
+        "rc = rh + rm\n",
+        "if rc <= 900 :\n",
+        "   ir = 0\n",
+        "else:\n",
+        "  if rc <= 1500 :\n",
+        "    ir = 10\n",
+        "else:\n",
+        "  if rc <= 2500:\n",
+        "    ir = 15\n",
+        "else:\n",
+        "    ir = 25\n",
+        "valor_imposto = rc * aliquota /100\n",
+        "print('Renda Conjunta ')"
+      ],
+      "metadata": {
+        "id": "6isvFmTk-qvL"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
